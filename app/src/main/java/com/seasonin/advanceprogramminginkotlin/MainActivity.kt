@@ -32,6 +32,9 @@ class MainActivity : ComponentActivity() {
         RestaurantTable.addCustomer("Lisa")
         RestaurantTable.addCustomer("Alex")
 
+        Waiter.branchName = "Main Branch"
+        Waiter.address = "123 Main Street"
+
     }
 }
 
