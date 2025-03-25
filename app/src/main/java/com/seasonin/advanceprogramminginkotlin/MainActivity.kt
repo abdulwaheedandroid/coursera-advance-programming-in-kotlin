@@ -27,6 +27,11 @@ class MainActivity : ComponentActivity() {
                 }
             }
         }
+
+        RestaurantTable.addCustomer("John")
+        RestaurantTable.addCustomer("Lisa")
+        RestaurantTable.addCustomer("Alex")
+
     }
 }
 
